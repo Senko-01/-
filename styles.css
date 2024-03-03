@@ -4,7 +4,7 @@ body {
   background-color: #ffe6ff; /* Light pink */
   margin: 0;
   padding: 0;
-  cursor: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfbYrqqdXizZuqv79Mdx9pBtpS_FTjVDXqQy_oPYvAbA&s'), auto;
+  cursor: cell;
 }
 
 header {
@@ -27,16 +27,12 @@ main {
 }
 
 button, a#githubBtn {
-  padding: 10px 20px;
-  margin: 10px;
-  background-color: #ff80bf; /* Light pink */
-  color: #660033; /* Dark pink */
-  border: none;
+  display: none;
+  background-color: #ffccff; /* Lighter pink */
+  padding: 20px;
+  margin-top: 10px;
+  border: 2px solid #ff99ff; /* Pink */
   border-radius: 5px;
-  cursor: pointer;
-  font-size: 1rem;
-  display: inline-block;
-  text-decoration: none; /* Added to remove underline from GitHub link */
 }
 
 button:hover, a#githubBtn:hover {
