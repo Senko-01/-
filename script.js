@@ -18,3 +18,7 @@ document.getElementById("wolfClientBtn").onclick = function() {
     wolfClientBox.style.display = "none";
   }
 };
+
+document.getElementById("githubBtn").onclick = function() {
+  window.location.href = "https://github.com/hmm-blu3moon";
+};
