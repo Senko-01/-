@@ -52,10 +52,11 @@ button:hover {
 a#githubBtn {
   display: inline-block;
   text-decoration: none;
-  padding: 10px 20px;
-  margin-top: 20px;
+  padding: 20px;
+  margin-top: 10px;
   background-color: #ff80bf; /* Light pink */
   color: #660033; /* Dark pink */
+  border: 2px solid #ff99ff; /* Pink */
   border-radius: 5px;
   font-size: 1rem;
 }
