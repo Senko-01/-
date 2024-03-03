@@ -4,7 +4,6 @@ body {
   background-color: #ffe6ff; /* Light pink */
   margin: 0;
   padding: 0;
-  cursor: cell;
 }
 
 header {
@@ -27,7 +26,6 @@ main {
 }
 
 button, a#githubBtn {
-  display: none;
   background-color: #ffccff; /* Lighter pink */
   padding: 20px;
   margin-top: 10px;
