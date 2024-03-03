@@ -25,7 +25,7 @@ main {
   margin-top: 20px;
 }
 
-button {
+button, a#githubBtn {
   padding: 10px 20px;
   margin: 10px;
   background-color: #ff80bf; /* Light pink */
@@ -34,9 +34,11 @@ button {
   border-radius: 5px;
   cursor: pointer;
   font-size: 1rem;
+  display: inline-block;
+  text-decoration: none; /* Added to remove underline from GitHub link */
 }
 
-button:hover {
+button:hover, a#githubBtn:hover {
   background-color: #ff66cc; /* Lighter pink */
 }
 
@@ -47,22 +49,6 @@ button:hover {
   margin-top: 10px;
   border: 2px solid #ff99ff; /* Pink */
   border-radius: 5px;
-}
-
-a#githubBtn {
-  display: inline-block;
-  text-decoration: none;
-  padding: 20px;
-  margin-top: 10px;
-  background-color: #ff80bf; /* Light pink */
-  color: #660033; /* Dark pink */
-  border: 2px solid #ff99ff; /* Pink */
-  border-radius: 5px;
-  font-size: 1rem;
-}
-
-a#githubBtn:hover {
-  background-color: #ff66cc; /* Lighter pink */
 }
 
 /* Add cute decorative elements */
