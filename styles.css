@@ -4,6 +4,7 @@ body {
   background-color: #ffe6ff; /* Light pink */
   margin: 0;
   padding: 0;
+  cursor: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfbYrqqdXizZuqv79Mdx9pBtpS_FTjVDXqQy_oPYvAbA&s'), auto;
 }
 
 header {
