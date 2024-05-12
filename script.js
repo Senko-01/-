@@ -20,5 +20,5 @@ document.getElementById("wolfClientBtn").onclick = function() {
 };
 
 document.getElementById("githubBtn").onclick = function() {
-  window.location.href = "https://github.com/hmm-blu3moon";
+  window.location.href = "https://github.com/senko-01";
 };
